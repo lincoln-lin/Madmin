@@ -1,0 +1,115 @@
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, blockquote, pre, a, code, img, dl, dt, dd, ol, ul, li, fieldset, form, table, tbody, tfoot, thead, tr, th, td {
+  font-family: "Microsoft YaHei", Verdana,Arial, "Bitstream Vera Sans",sans-serif; }
+
+body {
+  padding: 60px 10px 10px 10px;
+  background-color: #777;
+  float: left;
+  min-width: 100%; }
+
+.gridViewExpand {
+  opacity: 0;
+  transition: 0.5s; }
+  .gridViewExpand .cmd-toggle {
+    margin-left: 0.3em; }
+
+.mz-page-container {
+  padding: 12px;
+  background-color: #F5F5F5; }
+
+.mz-close-win {
+  display: none; }
+
+.mz-main-search-form {
+  margin: 16px 0; }
+  .mz-main-search-form .form-group {
+    margin-right: 19px;
+    margin-top: 8px; }
+  .mz-main-search-form .help-block {
+    display: none; }
+
+.mz-main-form {
+  max-width: 1000px; }
+  .mz-main-form legend {
+    font-size: 16px;
+    margin-bottom: 27px;
+    line-height: 36px; }
+  .mz-main-form .action-area {
+    background-color: #eeeeee;
+    border-top: 1px solid #ddd; }
+    .mz-main-form .action-area .form-group {
+      padding: 10px 0; }
+
+.action-column {
+  text-align: center; }
+
+.mz-main-content-box {
+  position: relative;
+  padding: 20px 15px 0 15px;
+  background-color: #FFF;
+  border: 1px solid #EBEBEB;
+  min-height: 668px;
+  overflow: hidden; }
+
+.mz-main-content-title {
+  border-bottom: 1px solid #EAEAEA;
+  margin-bottom: 16px;
+  line-height: 34px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #363636;
+  padding-bottom: 12px; }
+
+.mz-message {
+  position: absolute;
+  left: 40%;
+  top: 7px; }
+
+.mz-top-nav {
+  padding: 0; }
+  .mz-top-nav .navbar-nav > li {
+    margin-right: 1px; }
+  .mz-top-nav .navbar-nav > li > a {
+    font-size: 13px;
+    padding: 0 20px;
+    line-height: 30px;
+    background-color: #8b8b8b;
+    color: #FFF; }
+    .mz-top-nav .navbar-nav > li > a:hover {
+      background-color: #9F9F9F; }
+  .mz-top-nav .navbar-nav > li.active > a {
+    background-color: #F5F5F5;
+    color: #000; }
+
+.mz-left-nav {
+  width: 140px;
+  float: left;
+  margin-left: -12px; }
+  .mz-left-nav > li > a {
+    font-size: 13px;
+    padding: 9px 0 9px 12px;
+    color: black; }
+  .mz-left-nav > li.active a {
+    background-color: #428bca;
+    color: #fff; }
+
+.nav-tabs {
+  margin-bottom: 20px; }
+
+.mz-pagination {
+  float: right; }
+  .mz-pagination .pagination {
+    float: left; }
+
+.mz-btn-input-file {
+  position: relative;
+  overflow: hidden; }
+  .mz-btn-input-file input {
+    cursor: pointer;
+    position: absolute;
+    opacity: 0;
+    font-size: 200px;
+    left: 0;
+    top: 0; }
+
+/*# sourceMappingURL=mz.css.map */

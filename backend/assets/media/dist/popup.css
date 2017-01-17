@@ -1,0 +1,16 @@
+body {
+    padding: 10px;
+}
+
+.mz-main-nav,
+.mz-top-nav,
+.mz-left-nav {
+    display: none;
+}
+
+.mz-close-win {
+    display: block;
+}
+.mz-open-new-win {
+    display: none;
+}

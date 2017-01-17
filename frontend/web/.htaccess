@@ -1,0 +1,6 @@
+RewriteEngine On 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond $1 !^(index\.htm|index\.php|test\.php|tredis\.php|images|s\.php|resources|robots\.txt|favicon\.ico|info\.txt)
+RewriteCond %{REQUEST_URI} !^.*(\.css|\.js|\.gif|\.png|\.jpg|\.jpeg|\.svg|\.txt|\.ico|\.html|\.ttf|\.woff|\.swf|\.woff2)$
+RewriteRule ^(.*)$ /index.php/$1 [L]
